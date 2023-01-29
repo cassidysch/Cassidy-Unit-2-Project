@@ -1,0 +1,181 @@
+/* hex codes: dark green: #606c38, lighter green: #283618, pale white: #fefae0, beige: #dda15e, dark orange: #bc6c25 */
+
+
+/* <img alt="Polar bear navigates sheets of ice on the water" src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/newscms/2019_08/2757366/190218-polar-bear-2015-ac-737p.jpg">
+
+.column {
+    float: right;
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}
+*/
+
+
+.title {
+    text-align: center;
+    color: #0D0D0D;
+    background-color: #606c38;
+    font-size: 80px;
+    height: 300px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: Georgia, serif;
+    padding: 15px;
+}
+
+.title:hover {
+    height: 350px;
+    width: 975px;
+}
+
+div {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #606c38;
+    border-radius: 0px;
+}
+
+.section {
+    text-align: center;
+    background-color: #dda15e;
+    width: 650px;
+    height: 72px;
+    border-radius: 25px;
+    font-family: Georgia, serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.chapterdivs {
+    border: 10px solid #606c38;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #606c38;
+    border-radius: 25px;
+}
+
+.chaptertext {
+    color: #0D0D0D;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.chaptertext:hover {
+    font-size: 35px;
+}
+
+.chapterlinks {
+    color: #0D0D0D;
+    font-size: 30px;
+}
+
+
+.headers {
+    height: 137px;
+}
+
+
+.spacer {
+    height: 50px;
+    background-color: #fefae0;
+}
+
+
+img {
+    width: 550px;
+    border: 10px double #bc6c25;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: width 0.5s, height 0.5s;
+    height: 400px;
+}
+
+
+img:hover {
+    width: 620px;
+    height: 450px;
+}
+
+.img1 {
+    height: 400px;
+}
+
+.row {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+.row2 {
+    display: flex;
+    margin-left: 275px;
+    margin-right: 275px;
+}
+
+.column2 {
+    flex: 50%;
+    padding: 5px;
+}
+
+
+body {
+    background-color: #fefae0;
+}
+
+
+h1 {
+    color: #5B3210;
+    font-size: 60px;
+    transition: 1s;
+}
+
+.spaghetti:hover {
+    font-size: 90px;
+    padding: auto;
+}
+
+h2 {
+    font-size: 30px;
+    color: #9C581C;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 27px;
+    color: #9C581C;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+a {
+    color: #9C581C;
+    transition: 1s;
+}
+
+a:hover {
+    color: #5B3210;
+    font-size: 30px;
+}
